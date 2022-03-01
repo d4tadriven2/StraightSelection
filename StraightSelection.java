@@ -19,9 +19,9 @@ public class StraightSelection {
 		/**Aeussere Schleife setzt pos_min stets auf i wert**/
 		for(int i = 0; i<=length; i++){
 			int pos_min = i;
-			/**Innere Schleife geht ueber naechste Array Index und vergleich mit vorgaenger a[j]< a[i] ? **/
+			/**Innere Schleife geht ueber naechste Array Index und vergleich mit vorgaenger a[j]< a[i] **/
 			for(int j= i+1; j<=length; j++){
-				/**Es wird stets ueber innere Schleife iteriert bis zum Ende des Arrays und das !!kleinste!! Element wird
+				/**Es wird stets ueber innere Schleife iteriert bis zum Ende des Arrays und das kleinste Element wird
 				 * dabei gefunden und in pos_min eingespeichert, also arr[j] in pos_min
 				 * **/
 				if(arr[j]<arr[pos_min]){
