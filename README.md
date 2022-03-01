@@ -1,2 +1,2 @@
 # StraightSelection
-Einfacher StraightSelectionSort in Java.
+Meine eigene Straight Selection Sort Implementierung in Java.
